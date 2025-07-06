@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: <your-dockerhub-username>/webapp:latest
+        image: 891612544650.dkr.ecr.us-east-1.amazonaws.com/webapp:latest
         ports:
         - containerPort: 8080
 
